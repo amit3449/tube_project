@@ -12,11 +12,11 @@ const Head = () => {
       <div className='flex col-span-1'>
         <img 
           onClick={()=>toggleMenuHandler()}
-          className='h-8 cursor-pointer'
+          className='h-12 cursor-pointer'
           alt='menu' src='https://static.vecteezy.com/system/resources/thumbnails/002/292/406/small/hamburger-menu-line-icon-free-vector.jpg'
         />
         <img
-         className='h-9 mx-1'
+         className='h-12 mx-1'
          alt='logo' src='https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg'
         />
       </div>
